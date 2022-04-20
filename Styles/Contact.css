@@ -34,6 +34,36 @@ nav a {
     border-radius: 1em;
     padding: 0.5em 1em 0.5em 1em;
 }
+section h1 {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    padding-top: 10em;
+    margin-left: 4em;
+    text-align: center;
+}
+#contact {
+    color: white;
+    float: inherit;
+    border: none;
+    margin-right: 35em;
+    float: right;
+}
+#contact label {
+    text-align: right;
+    width: 8em;
+    float: left;
+    line-height: 2em;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.5em;
+}
+#contact input {
+    margin-left: 2em;
+    height: 2em;
+    width: 10em;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.5em;
+    float: right;
+}
 footer {
     text-align: center;
     padding-top: 40em;

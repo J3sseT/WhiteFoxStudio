@@ -3,11 +3,11 @@
     
     <head>
         <meta charset="utf-8">
-        <title>White Fox Studio|Portfolio</title>
+        <title>White Fox Studio | Contact</title>
         <meta name="author" content="Jo Schroeder & Jesse Tetner">
         <meta name="description" content="Photography and graphics portfolio.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../Styles/Portfolio.css">
+        <link rel="stylesheet" href="../Styles/Contact.css">
         <link rel="icon" type="image/x-icon" href="">
     </head>
 
@@ -21,10 +21,25 @@
                 <h4><a href="../Pages/Portfolio.html">Portfolio</a></h4>
            </nav>
         </header>
-           
-            
+        
         <main>
-            
+           <section>
+               <h1>Contact me!</h1>
+    		    <form action="contact_finish.html" method="get"
+        		name="contact_finish" id="contact_finish">
+    			<fieldset id="contact">
+        			<label for="first_name">First Name:</label>
+					<input type="text" name="first_name" id="first_name" required><br>
+					<label for="last_name">Last Name:</label>
+					<input type="text" name="last_name" id="last_name" required><br>
+					<label for="email">E-Mail:</label>
+	        		<input type="email" name="email" id="email" autofocus required><br>
+					<label for="phone">Phone Number:</label>
+					<input type="tel" name="phone" id="phone" placeholder="Optional" 
+				       	   pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
+				</fieldset>
+                </form>
+           </section>
         </main>
 
         <footer>
