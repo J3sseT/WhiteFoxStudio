@@ -1,46 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Source+Code+Pro:wght@400&display=swap');
+
 html {
-    background-image: url(/Images/homepage_background.jpg);
+    background-color: #f4f4f4;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-img {
-    position: absolute;
-    z-index: -1;
-    margin-top: -4em;
-    margin-left: 20em;
+
+/* Lines Top */
+#lu {
+    z-index: -2;
+    float: left;
+    margin-top: -6em;
+    margin-left: 0.2em;
+    opacity: 0.5;
+    
+}
+
+#ru {
+    z-index: -2;
+    float: right;
+    margin-top: -6em;
+    margin-right: 0.2em;
     opacity: 0.5;
 }
-h1 {
-    text-align: left;
-    font-size: 5em;
-    background: ;
-    color: white;
-    padding-top: 1em;
-    margin-left: 1em;
-    font-family: "Quicksand", sans-serif;
-    letter-spacing: 0.025em;
+
+/*Images*/
+#img1 {
+    position: absolute;
+    z-index: -1;
+    margin-top: -7.8em;
+    margin-left: 1.5em;
+    
 }
+
+
+/* Menu */
 h4 {
-    text-align: left;
-    font-size: 2em;
+    z-index: 4;
+    font-size: 1.8em;
     line-height: 2em;
-    margin-left: 2.5em;
-    font-family: "Quicksand", sans-serif;
+    margin-top: 4em;
+    margin-left: 15.7em;
+    background-color: none;
+    font-family: serif;
     
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #6a6a6a;
 }
 a:visited {
     text-decoration: none;
 }
+#Portfolio {
+    z-index: 6;
+    float: left;
+    padding-right: 4em;
+    margin-left: -3em;
+}
+#Services {
+    z-index: 6;
+    float: left;
+    padding-right: 4em;
+    
+}
+#About {
+    z-index: 6;
+    padding-right: 4em;
+    
+}
+#Contact {
+    z-index: 6;
+    float: right;
+    margin-right: 6em;
+}
+
+/* Navigation Buttons */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+/*Footer*/
 footer {
+    z-index: 5;
     text-align: center;
+<<<<<<< Updated upstream
     padding-top: 6em;
+=======
+    margin-top: 60em;
+>>>>>>> Stashed changes
     font-family: sans-serif;
-    color: white;
-    font-size: 1.3em;
+    color: #6a6a6a;
+    font-size: 0.7em;
+}
+
+/* Lines Bottom */
+#ll {
+    z-index: -2;
+    float: left;
+    margin-top: -11.2em;
+    opacity: 0.5;
+    
+}
+#rl {
+    z-index: -2;
+    float: right;
+    margin-top: -11.2em;
+    opacity: 0.5;
 }

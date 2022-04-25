@@ -1,6 +1,244 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Source+Code+Pro:wght@400&display=swap');
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 html {
-    background-color: #202020;
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Lines Top */
+#lu {
+    z-index: -2;
+    float: left;
+    margin-top: 0em;
+    margin-left: 0.2em;
+    opacity: 0.5;
+    
+}
+
+#ru {
+    z-index: -2;
+    float: right;
+    margin-top: 0em;
+    margin-right: 0.2em;
+    opacity: 0.5;
+}
+
+/*Images*/
+#Title {
+    z-index: -2;
+    position: absolute;
+    margin-left: 34em; 
+}
+
+#Fox1 {
+    position: absolute;
+    z-index: -1;
+    margin-top: 2.5em;
+    margin-left: 10em;
+}
+
+#Fox2 {
+    position: absolute;
+    float: right;
+    z-index: -1;
+    margin-top: 2.5em;
+    margin-left: 54em;
+    
+}
+
+
+/* Menu */
+h4 {
+    z-index: 4;
+    font-size: 1.8em;
+    line-height: 2em;
+    margin-top: 3em;
+    margin-left: 15.7em;
+    background-color: none;
+    font-family: serif;
+    
+}
+a {
+    text-decoration: none;
+    color: #6a6a6a;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    color: #6e1c25;
+}
+#Portfolio {
+    z-index: 6;
+    float: left;
+    padding-right: 4em;
+    margin-left: -3em;
+}
+#Services {
+    z-index: 6;
+    float: left;
+    padding-right: 4em;
+    
+}
+#About {
+    z-index: 6;
+    padding-right: 4em;
+    
+}
+#Contact {
+    z-index: 6;
+    float: right;
+    padding-right: 5em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+/*Service Options*/
+
+h1 {
+    z-index: 8;
+    font-family: serif;
+    font-size: 3em;
+    margin-top: 0.5em;
+    border-top: 0.02em solid #6a6a6a;
+    border-bottom: 0.02em solid #6a6a6a;
+    color: #6a6a6a;
+    text-align: center;
+    
+}
+    
+h2 {
+    text-align: center;
+    color: #6a6a6a;
+    text-shadow: 1px 1px 1px #e78d6f;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+/* Leo and Ohle */
+#Leo1  {
+    float: left;
+    margin-left: 0em;
+}
+#Leo2  {
+    margin-left: 5em;
+    margin-right: 6.2em;
+}
+#Leo3  {
+    margin-left: 0em;
+    margin-right: 5em;
+}
+
+#Leo4 {
+    float: right;
+    margin-top: 0em;
+}
+
+#Leo5  {
+    float: left;
+    margin-left: 0em;
+     margin-top: 1em;
+}
+#Leo6  {
+    margin-left: 5em;
+    margin-right: 6.2em;
+    margin-top: 1em;
+}
+#Leo7  {
+    margin-left: 0em;
+    margin-right: 5em;
+    margin-top: 1em;
+}
+
+#Leo8 {
+    float: right;
+    margin-top: 1em;
+}
+
+/*Melina and Lars*/
+#Melina1  {
+    float: left;
+    margin-left: 0em;
+}
+#Melina2  {
+    margin-left: 5em;
+    margin-right: 6.2em;
+}
+#Melina3  {
+    margin-left: 0em;
+    margin-right: 5em;
+}
+
+#Melina4 {
+    float: right;
+}
+
+#Melina5  {
+    float: left;
+    margin-left: 0em;
+     margin-top: 1em;
+}
+#Melina6  {
+    margin-left: 5em;
+    margin-right: 6.2em;
+     margin-top: 1em;
+}
+#Melina7  {
+    margin-left: 0em;
+    margin-right: 5em;
+     margin-top: 1em;
+}
+
+
+#Melina8 {
+    float: right;
+    margin-top: 0em;
+     margin-top: 1em;
+}
+
+/*Footer*/
+footer {
+    z-index: 5;
+    text-align: center;
+    margin-top: 12em;
+    font-family: sans-serif;
+    color: #6a6a6a;
+    font-size: 0.7em;
+}
+
+/* Lines Bottom */
+#ll {
+    z-index: -2;
+    float: left;
+    margin-top: -11.2em;
+    opacity: 0.5;
+    
+}
+#rl {
+    z-index: -2;
+    float: right;
+    margin-top: -11.2em;
+    opacity: 0.5;
 }
 header h1 {
     margin-top: 1em;
