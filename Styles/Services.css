@@ -54,67 +54,59 @@ html {
 }
 
 /* Menu */
-h4 {
-    z-index: 4;
+#navMenu {
+    margin-left: 11em;
+}
+#navMenu ul {
+    position: relative;
+    list-style: none;
+}
+#navMenu ul li {
+    padding-right: 2em;
+    list-style: none;
+    float: left;
+}
+#navMenu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#navMenu ul ul li {
+    float: none;
+    border: none;
+}
+#navMenu ul li:hover > ul {
+    display: block;
+}
+#navMenu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#navMenu a {
+    text-decoration: none;
+    color: #6a6a6a;
+    background-color: #f4f4f4;
+    font-family: serif;
     font-size: 1.8em;
     line-height: 2em;
     margin-top: 3em;
-    margin-left: 15.7em;
-    background-color: none;
-    font-family: serif;
-    text-shadow: 0.2em 0.2em 0.2em 0.2em;
+    margin-left: 4em;
+    font-weight: bold;
     
 }
-a {
-    text-decoration: none;
-    color: #6a6a6a;
+#navMenu ul li a {
+	text-align: center;
+	display: block;
+	text-decoration: none;
 }
-a:visited {
+#navMenu a:visited {
     text-decoration: none;
+    
 }
-a:hover {
+#navMenu ul li a:hover {
     color: #6e1c25;
 }
-#Portfolio {
-    z-index: 6;
-    float: left;
-    padding-right: 4em;
-    margin-left: -3em;
-}
-#Services {
-    z-index: 6;
-    float: left;
-    padding-right: 4em;
-    
-}
-#About {
-    z-index: 6;
-    padding-right: 4em;
-    
-}
-#Contact {
-    z-index: 6;
-    float: right;
-    padding-right: 5em;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
-
 /*Service Options*/
 
 h1 {
