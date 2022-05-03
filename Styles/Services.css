@@ -62,7 +62,6 @@ html {
     list-style: none;
 }
 #navMenu ul li {
-    padding-right: 2em;
     list-style: none;
     float: left;
 }
@@ -91,7 +90,7 @@ html {
     font-size: 1.8em;
     line-height: 2em;
     margin-top: 3em;
-    margin-left: 4em;
+    margin-left: 3.5em;
     font-weight: bold;
     
 }

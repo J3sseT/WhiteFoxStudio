@@ -45,7 +45,9 @@ html {
     z-index: -1;
     margin-top: 2.5em;
     margin-left: 54em;
+    
 }
+
 
 /* Menu */
 #navMenu {
@@ -82,10 +84,10 @@ html {
     background-color: #f4f4f4;
     font-family: serif;
     font-size: 1.8em;
-    font-weight: bold;
     line-height: 2em;
     margin-top: 3em;
     margin-left: 3.5em;
+    font-weight: bold;
     
 }
 #navMenu ul li a {
@@ -100,11 +102,9 @@ html {
 #navMenu ul li a:hover {
     color: #6e1c25;
 }
-/*Service Options*/
-main {
-    
-}
-h2 {
+/*Header*/
+
+h1 {
     font-family: serif;
     font-size: 3em;
     margin-top: 0.5em;
@@ -113,49 +113,19 @@ h2 {
     color: #6a6a6a;
     text-align: center;
 }
-#contact {
-    border: none;
-    margin-right: 37em;
-    text-align: right;
-}
-#contact label {
-    padding-right: 1em;
-    line-height: 3.5em;
+/*main*/
+main p {
+    text-align: center;
     font-family: serif;
-    font-weight: bold;
     color: #6a6a6a;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    width: 25em;
+    margin: 3em 0 0 19em;
 }
-#contact input {
-    height: 2em;
-    width: 15em;
-    font-size: 1.2em;
-    font-family: serif;
-}
-#contact #messageLabel {
-    vertical-align: top;
-}
-#contact #message {
-    width: 15.1em;
-    height: 10em;
-    font-family: serif;
-    font-size: 1.2em;
-    flex-wrap: wrap;
-    vertical-align: top;
-    border: 1px solid black;
-}
-#button {
-    position: absolute;
-    left: 32em;
-    width: 15em;
-    font-size: 1.2em;
-    margin-top: 1em;
-    font-family: serif;
-    font-weight: bold;
-    background-color: #e0e0e0;
-    color: #4a4a4a;
-    border: 1px solid black;
-    cursor: pointer;
+#submitImg {
+    height: 20em;
+    margin: 2em 0 0 15em;
+    
 }
 /*Footer*/
 footer {
