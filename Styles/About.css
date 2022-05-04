@@ -183,11 +183,19 @@ h2 {
     
 }
 
+#screen {
+    z-index: 2;
+    margin-left: 6em;
+    margin-bottom: 2em;
+    
+}
+
+
 /*Footer*/
 footer {
     z-index: 5;
     text-align: center;
-    margin-top: 55em;
+    margin-top: 7em;
     font-family: sans-serif;
     color: #6a6a6a;
     font-size: 0.7em;
