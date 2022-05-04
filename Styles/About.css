@@ -131,6 +131,7 @@ aside {
     margin-top: 3em;
     margin-left: 3em;
     color: #6a6a6a;
+    font-size: 1.05em;
 }
 
 #Me {
@@ -153,6 +154,7 @@ h2 {
     text-align: center;
     margin-top: -23em;
     color: #6a6a6a;
+    margin-bottom: 1em
     
 }
 
@@ -167,17 +169,20 @@ h2 {
     margin-bottom: -2em
 }
 
-h3 {
-    text-align: center;
-    margin-top: -8em;
-    color: #6a6a6a;
+#flower {
+    float: right;
+    margin-top: -2.1em;
+    margin-right: 1em;
 }
 
-#other {
-    float: left;
-    text-align: center;
+#church {
+    float:right;
+    z-index: 2;
+    margin-top: 11em;
+    margin-right: -6em;
     
 }
+
 /*Footer*/
 footer {
     z-index: 5;
