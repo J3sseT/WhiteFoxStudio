@@ -64,11 +64,11 @@ html {
 #navMenu ul ul {
     display: none;
     position: absolute;
-    top: 100%;
 }
 #navMenu ul ul li {
     float: none;
     border: none;
+    
 }
 #navMenu ul li:hover > ul {
     display: block;
@@ -84,10 +84,10 @@ html {
     background-color: #f4f4f4;
     font-family: serif;
     font-size: 1.8em;
-    line-height: 2em;
-    margin-top: 3em;
-    margin-left: 3.5em;
     font-weight: bold;
+    line-height: 2em;
+    margin-top: 4em;
+    margin-left: 3.5em;
     
 }
 #navMenu ul li a {
@@ -95,6 +95,16 @@ html {
 	display: block;
 	text-decoration: none;
 }
+#navMenu ul ul a {
+    margin-left: 2em;
+    border: 1px solid #6a6a6a;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+#navMenu ul ul li a {
+    margin-top: 0em;
+    font-size: 1.2em;
+}
+
 #navMenu a:visited {
     text-decoration: none;
     

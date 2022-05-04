@@ -11,7 +11,7 @@ html {
 #lu {
     z-index: -2;
     float: left;
-    margin-top: -6em;
+    margin-top: -1em;
     margin-left: 0.2em;
     opacity: 0.5;
     
@@ -20,7 +20,7 @@ html {
 #ru {
     z-index: -2;
     float: right;
-    margin-top: -6em;
+    margin-top: -1em;
     margin-right: 0.2em;
     opacity: 0.5;
 }
@@ -29,72 +29,74 @@ html {
 #img1 {
     position: absolute;
     z-index: -1;
-    margin-top: -7.8em;
+    margin-top: -1em;
     margin-left: 1.5em;
     
 }
-
-
 /* Menu */
-h4 {
-    z-index: 4;
+#navMenu {
+    margin-left: 11em;
+}
+#navMenu ul {
+    position: relative;
+    list-style: none;
+    margin-left: 3em;
+}
+#navMenu ul li {
+    list-style: none;
+    float: left;
+}
+#navMenu ul ul {
+    display: none;
+    position: absolute;
+}
+#navMenu ul ul li {
+    float: none;
+    border: none;
+    
+}
+#navMenu ul li:hover > ul {
+    display: block;
+}
+#navMenu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#navMenu a {
+    text-decoration: none;
+    color: #6a6a6a;
+    background-color: #f4f4f4;
+    font-family: serif;
     font-size: 1.8em;
+    font-weight: bold;
     line-height: 2em;
     margin-top: 4em;
-    margin-left: 15.7em;
-    background-color: none;
-    font-family: serif;
+    margin-left: 4em;
     
 }
-a {
+#navMenu ul li a {
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+#navMenu ul ul a {
+    margin-left: 0em;
+    border: 1px solid #6a6a6a;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+#navMenu ul ul li a {
+    margin-top: 0em;
+    font-size: 1.2em;
+}
+
+#navMenu a:visited {
     text-decoration: none;
-    color: #4a4a4a;
-}
-a:visited {
-    text-decoration: none;
-}
-#Portfolio {
-    z-index: 6;
-    float: left;
-    padding-right: 4em;
-    margin-left: -3em;
-}
-#Services {
-    z-index: 6;
-    float: left;
-    padding-right: 4em;
     
 }
-#About {
-    z-index: 6;
-    padding-right: 4em;
-    
+#navMenu ul li a:hover {
+    color: #6e1c25;
 }
-#Contact {
-    z-index: 6;
-    float: right;
-    margin-right: 6em;
-}
-
-/* Navigation Buttons */
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
-
 /*Footer*/
 footer {
     z-index: 5;
