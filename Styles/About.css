@@ -129,7 +129,8 @@ aside {
     float: left;
     text-align: left;
     margin-top: 3em;
-    margin-left: 1em;
+    margin-left: 3em;
+    color: #6a6a6a;
 }
 
 #Me {
@@ -141,11 +142,42 @@ aside {
 
 #square {
   height: 600px;
-  width: 1440px;
-  background-color: #555;
+  width: 1370px;
+  background-color: #EDDDD2;
   margin-top: 45em;
+  margin-left: 3em;
 }
 
+h2 {
+    z-index: 1;
+    text-align: center;
+    margin-top: -23em;
+    color: #6a6a6a;
+    
+}
+
+#book {
+    margin-top: -2.1em;
+    margin-left: 1em;
+}
+
+#light {
+    z-index: 1;
+    margin-left: -7em;
+    margin-bottom: -2em
+}
+
+h3 {
+    text-align: center;
+    margin-top: -8em;
+    color: #6a6a6a;
+}
+
+#other {
+    float: left;
+    text-align: center;
+    
+}
 /*Footer*/
 footer {
     z-index: 5;
