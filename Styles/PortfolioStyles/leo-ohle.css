@@ -46,7 +46,6 @@ html {
     margin-top: 2.5em;
     margin-left: 54em;
 }
-
 /* Menu */
 #navMenu {
     margin-left: 11em;
@@ -86,7 +85,6 @@ html {
     line-height: 2em;
     margin-top: 4em;
     margin-left: 3.5em;
-    
 }
 #navMenu ul li a {
 	text-align: center;
@@ -112,61 +110,54 @@ html {
 }
 
 /*Service Options*/
-main {
-    
-}
 h2 {
-    font-family: serif;
-    font-size: 3em;
-    margin-top: 0.5em;
-    border-top: 0.02em solid #6a6a6a;
-    border-bottom: 0.02em solid #6a6a6a;
-    color: #6a6a6a;
     text-align: center;
-}
-#contact {
-    border: none;
-    margin-right: 37em;
-    text-align: right;
-}
-#contact label {
-    padding-right: 1em;
-    line-height: 3.5em;
-    font-family: serif;
-    font-weight: bold;
     color: #6a6a6a;
-    font-size: 1.2em;
+    text-shadow: 1px 1px 1px #e78d6f;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-top: 0.02em solid #6a6a6a;
+    padding-top: 2em;
 }
-#contact input {
-    height: 2em;
-    width: 15em;
-    font-size: 1.2em;
-    font-family: serif;
+
+/* Leo and Ohle */
+#Leo1  {
+    float: left;
+    margin-left: 0em;
 }
-#contact #messageLabel {
-    vertical-align: top;
+#Leo2  {
+    margin-left: 5em;
+    margin-right: 6.2em;
 }
-#contact #message {
-    width: 15.1em;
-    height: 10em;
-    font-family: serif;
-    font-size: 1.2em;
-    flex-wrap: wrap;
-    vertical-align: top;
-    border: 1px solid black;
+#Leo3  {
+    margin-left: 0em;
+    margin-right: 5em;
 }
-#button {
-    position: absolute;
-    left: 32em;
-    width: 15em;
-    font-size: 1.2em;
+
+#Leo4 {
+    float: right;
+    margin-top: 0em;
+}
+
+#Leo5  {
+    float: left;
+    margin-left: 0em;
+     margin-top: 1em;
+}
+#Leo6  {
+    margin-left: 5em;
+    margin-right: 6.2em;
     margin-top: 1em;
-    font-family: serif;
-    font-weight: bold;
-    background-color: #e0e0e0;
-    color: #4a4a4a;
-    border: 1px solid black;
-    cursor: pointer;
+}
+#Leo7  {
+    margin-left: 0em;
+    margin-right: 5em;
+    margin-top: 1em;
+}
+
+#Leo8 {
+    float: right;
+    margin-top: 1em;
 }
 
 /*Footer*/
