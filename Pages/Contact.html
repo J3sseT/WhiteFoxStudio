@@ -7,9 +7,12 @@
         <meta name="author" content="Jo Schroeder & Jesse Tetner">
         <meta name="description" content="Photography and graphics portfolio.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../JavaScript/dist/jquery.floating-social-share.min.css">
         <link rel="stylesheet" href="../Styles/Contact.css">
         <link rel="icon" type="image/x-ico" href="../Shapes/Logo/Logo%20Persian%20Plum.png">
         <a href="/index.html" id="Title"><img src="../Pictures/Title%20.png" width="400"></a>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+	    <script type="text/javascript" src="../JavaScript/dist/jquery.floating-social-share.min.js"></script>
     </head>
 
     <body>
@@ -25,9 +28,9 @@
                     <li><a href="../index.html">Home</a></li>
                     <li id="dropDown"><a href="../Pages/Portfolio.html" >Portfolio</a>
                         <ul>
-                            <li><a href="../Pages/leo&ohle.html">Leo and Ohle</a></li>
-                            <li><a href="../Pages/mel&lars.html">Melina and Lars</a></li>
-                            <li><a href="../Pages/misty&david.html">Misty and David</a></li>
+                            <li><a href="../Pages/Portfolio/leo-ohle.html">Leo and Ohle</a></li>
+                            <li><a href="../Pages/Portfolio/mel-lars.html">Melina and Lars</a></li>
+                            <li><a href="../Pages/Portfolio/misty-david.html">Misty and David</a></li>
                         </ul>
                     </li>
                     <li><a href="../Pages/Services.html" >Services</a></li>
@@ -38,9 +41,19 @@
         </header>
 
         <main>
-        
-          
-            <h1></h1>
+            <section>
+                <script>
+                  $("body").floatingSocialShare({
+                    buttons: [
+                      "facebook", "linkedin", "reddit", 
+                      "telegram", "tumblr", "twitter", "vk", 
+                    ],
+                    text: "share with: ",
+                    url: "https://github.com/ozdemirburak/jquery-floating-social-share"
+                  });
+                </script>
+            </section>
+           <h1></h1>
            <h2>Contact Me</h2>
     		    <form action="submit.html" method="get"
         		name="submit" id="submit">
@@ -59,6 +72,7 @@
 				</fieldset>
                    <input type="submit" name="submitButton" id="button" value="Submit">
                 </form>
+            
         </main>
 
         <footer>
