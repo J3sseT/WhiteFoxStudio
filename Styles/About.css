@@ -132,6 +132,7 @@ aside {
     margin-left: 3em;
     color: #6a6a6a;
     font-size: 1.05em;
+    
 }
 
 #Me {
@@ -154,13 +155,15 @@ h2 {
     text-align: center;
     margin-top: -23em;
     color: #6a6a6a;
-    margin-bottom: 1em
+    margin-bottom: 1em;
+    text-shadow: 0.05em 0.02em #F8A18D;
     
 }
 
 #book {
     margin-top: -2.1em;
     margin-left: 1em;
+    box-shadow: 2em 2em 100em 0.02em #EFECFC;
 }
 
 #light {
@@ -173,6 +176,7 @@ h2 {
     float: right;
     margin-top: -2.1em;
     margin-right: 1em;
+     box-shadow: 2em 2em 100em 0.02em #EFECFC;
 }
 
 #church {
@@ -190,12 +194,42 @@ h2 {
     
 }
 
+/* Will's Videos */
+#videographer {
+    margin-top: 3em;
+    margin-left: 0em;
+    text-align: center;
+    font-size: 2em;
+    color: #6a6a6a;
+    text-shadow: 0.05em 0.02em #F8A18D;
+    border-top: 0.04em solid #6a6a6a;
+    border-bottom: 0.04em solid #6a6a6a;
+}
+
+#AboutWill {
+    clear:both;
+    float: left;
+    text-align: left;
+    margin-top: 3em;
+    margin-left: 3em;
+    color: #6a6a6a;
+    font-size: 1.05em;
+    margin-left: 4em;
+    
+}
+
+#Will {
+    float: right; 
+    margin-right: 3em;
+    margin-top: -1.3em;
+}
+
 
 /*Footer*/
 footer {
     z-index: 5;
     text-align: center;
-    margin-top: 7em;
+    margin-top: 52em;
     font-family: sans-serif;
     color: #6a6a6a;
     font-size: 0.7em;

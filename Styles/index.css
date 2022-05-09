@@ -34,6 +34,9 @@ html {
     
 }
 /* Menu */
+#navMenu{
+    z-index: 1;
+}
 #navMenu {
     margin-left: 11em;
 }
@@ -97,11 +100,41 @@ html {
 #navMenu ul li a:hover {
     color: #6e1c25;
 }
+
+/*Main*/
+#Img1 {
+    z-index: -1;
+    margin-top: 1em;
+    margin-left: 8em;
+    opacity: 0.5;
+    
+}
+
+#Img2 {
+    z-index: -1;
+    margin-top: 1em;
+    opacity: 0.5;
+}
+
+#Img3 {
+    z-index: -1;
+    margin-top: 1em;
+    opacity: 0.5;
+}
+
+#Moment {
+    z-index: 1;
+    margin-top: -25em;
+    margin-left: 7.5em;
+    margin-bottom: 3em;
+    transform: rotate(-30deg);  
+}
+
 /*Footer*/
 footer {
     z-index: 5;
     text-align: center;
-    margin-top: 60em;
+    margin-top: 2.8em;
     font-family: sans-serif;
     color: #6a6a6a;
     font-size: 0.7em;
